@@ -22,8 +22,8 @@ library(knitr)
 
 Los gráficos generados son: 
 
-```{r, echo = FALSE}
-setwd("~/Desktop/MiGithub/ProyectoCertificacion/Graficas")
+```{r}
+setwd("~/Desktop/MiGithub/ProyectoCertificacion")
 carpeta_png <- "~/Desktop/MiGithub/ProyectoCertificacion/Graficas"
 
 archivos_png <- list.files(carpeta_png, pattern = ".png", full.names = TRUE)
@@ -36,17 +36,23 @@ nombres_archivos_png <- basename(archivos_png)
 archivos_png <- as.data.frame(nombres_archivos_png); print(archivos_png)
 ```
 
-# Gráficas Generales
+# Gráficas
+
+## Gráficas Generales
 
 
 ![Licenciaturas](BarPlotLic.png)
 
 
+![Certificaciones por Licenciatura](ggplotBarplotLic.png)
+
+![Certificaciones por Planteles](ggplotBarplotPlanteles.png)
+
 ![Planteles](barPlotPlanteles.png)
 
 ![Certificaciones por Año](ggplotBarplotAnho.png)
 
-# Gráficas relacionadas con Planteles
+## Gráficas de Certificaciones por Planteles
 
 ![BarPlotPlantelCal](BarPlotPlantelCal.png)
 
@@ -56,7 +62,7 @@ archivos_png <- as.data.frame(nombres_archivos_png); print(archivos_png)
 ![Planteles por Licenciatura](BarplotPlantelLic.png)
 
 
-# Graficas de Certificaciones por Año
+## Graficas de Certificaciones por Año
 
 ![Certificaciones por Año por Licenciatura](ggplotBarplotAnhoLic.png)
 
@@ -73,34 +79,85 @@ archivos_png <- as.data.frame(nombres_archivos_png); print(archivos_png)
 ![Certificaciones por año por planteles 2](ggplotBarplotAnhoPlantel2.png)
 ![Certificaciones por año por planteles 3](ggplotBarplotAnhoPlantel3.png)
 
-# Graficas de Certificaciones por Generacion
+## Graficas de Certificaciones por Generacion
 
 ![Certificaciones por generacion por licenciatura](ggplotBarplotGenLic.png)
 
 
-![]()
+![Certificaciones por generacion por licenciatura 2s](ggplotBarplotGenLic2.png)
 
 
-![]()
+![Certificaciones por generacion por materias](ggplotBarplotGenMaterias.png)
 
 
-![]()
+![Certificaciones por generacion por planteles](ggplotBarplotGenPlantel.png)
 
 
-![]()
+![Certificaciones por generación por planteles 2](ggplotBarplotGenPlantel2.png)
+## Gráficas de certificaciones relacionadas con Licenciaturas
+
+![Certificaciones por Licenciatura por calificaciones](ggplotBarplotLicCal.png)
 
 
-![]()
+![Certificaciones por Licenciatura por calificaciones](ggplotBarplotLicCal2.png)
 
 
-![]()
+![Certificaciones por Licenciatura por Generación](ggplotBarplotLicGen.png)
 
 
-![]()
+![Certificaciones por Licenciatura por Generación 2 ](ggplotBarplotLicGen2.png)
 
 
-![]()
 
+![Certificaciones por Licenciatura por Plantel ](ggplotBarplotLicPlantel.png)
+
+
+
+![Certificaciones por Licenciatura por Plantel 2](ggplotBarplotLicPlantel2.png)
+## Gráficas de Certificacines por Materias
+
+
+![Certificaciones por Materias por Plantel ](ggplotBarplotMateriasPlantel.png)
+
+
+
+![Certificaciones por Materias por Plantel 2](ggplotBarplotMateriasPlantel2.png)
+
+
+
+![Certificaciones por Materias por Plantel 3 ](ggplotBarplotMateriasPlantel3.png)
+
+## Graficas de certificaciones por Plantel
+
+
+![Certificaciones por Plantel por año ](ggplotBarplotPlantelAnho.png)
+
+
+![Certificaciones por Plantel por Calificaciones ](ggplotBarplotPlantelCal.png)
+
+![Certificaciones por Plantel por Calificaciones 2](ggplotBarplotPlantelCal2.png)
+![Certificaciones por Plantel por Calificaciones 3](ggplotBarplotPlantelCal3.png)
+
+
+![Certificaciones por Planteles por Generación 3 ](ggplotBarplotPlantelGen3.png)
+![Certificaciones por Planteles por Generación 4](ggplotBarplotPlantelGen4.png)
+![Certificaciones por Plantel por Licenciatura](ggplotBarplotPlantelLic.png)
+
+![Certificaciones por Plantel por Licenciatura 2](ggplotBarplotPlantelLic2.png)
+
+![Certificaciones por Plantel por Licenciatura 3](ggplotBarplotPlantelLic3.png)
+
+
+
+![Certificaciones por Plantel por Materias ](ggplotBarplotPlantelMaterias.png)
+
+![Certificaciones por Plantel por Materias 2](ggplotBarplotPlantelMaterias2.png)
+
+![Certificaciones por Plantel por Materias 3](ggplotBarplotPlantelMaterias3.png)
+
+
+
+## Listado
 
 ```{r}
 ## 1                     BarPlotLic.png ya
@@ -116,33 +173,32 @@ archivos_png <- as.data.frame(nombres_archivos_png); print(archivos_png)
 ## 11      ggplotBarplotAnhoPlantel.png ya
 ## 12     ggplotBarplotAnhoPlantel2.png ya
 ## 13     ggplotBarplotAnhoPlantel3.png ya
-## 14           ggplotBarplotGenLic.png
-## 15          ggplotBarplotGenLic2.png
-## 16      ggplotBarplotGenMaterias.png
-## 17       ggplotBarplotGenPlantel.png
-## 18      ggplotBarplotGenPlantel2.png
-## 19              ggplotBarplotLic.png
-## 20           ggplotBarplotLicCal.png
-## 21          ggplotBarplotLicCal2.png
-## 22           ggplotBarplotLicGen.png
-## 23          ggplotBarplotLicGen2.png
-## 24       ggplotBarplotLicPlantel.png
-## 25      ggplotBarplotLicPlantel2.png
-## 26  ggplotBarplotMateriasPlantel.png
-## 27 ggplotBarplotMateriasPlantel2.png
-## 28 ggplotBarplotMateriasPlantel3.png
-## 29      ggplotBarplotPlantelAnho.png
-## 30       ggplotBarplotPlantelCal.png
-## 31      ggplotBarplotPlantelCal2.png
-## 32      ggplotBarplotPlantelCal3.png
-## 33        ggplotBarplotPlanteles.png
-## 34      ggplotBarplotPlantelGen3.png
-## 35      ggplotBarplotPlantelGen4.png
-## 36       ggplotBarplotPlantelLic.png
-## 37      ggplotBarplotPlantelLic2.png
-## 38      ggplotBarplotPlantelLic3.png
-## 39  ggplotBarplotPlantelMaterias.png
-## 40 ggplotBarplotPlantelMaterias2.png
-## 41 ggplotBarplotPlantelMaterias3.png
+## 14           ggplotBarplotGenLic.png ya
+## 15          ggplotBarplotGenLic2.png ya
+## 16      ggplotBarplotGenMaterias.png ya
+## 17       ggplotBarplotGenPlantel.png ya
+## 18      ggplotBarplotGenPlantel2.png ya
+## 19              ggplotBarplotLic.png ya
+## 20           ggplotBarplotLicCal.png ya
+## 21          ggplotBarplotLicCal2.png ya
+## 22           ggplotBarplotLicGen.png ya
+## 23          ggplotBarplotLicGen2.png ya
+## 24       ggplotBarplotLicPlantel.png ya
+## 25      ggplotBarplotLicPlantel2.png ya
+## 26  ggplotBarplotMateriasPlantel.png ya
+## 27 ggplotBarplotMateriasPlantel2.png ya
+## 28 ggplotBarplotMateriasPlantel3.png ya
+## 29      ggplotBarplotPlantelAnho.png ya
+## 30       ggplotBarplotPlantelCal.png ya
+## 31      ggplotBarplotPlantelCal2.png ya
+## 32      ggplotBarplotPlantelCal3.png ya
+## 33        ggplotBarplotPlanteles.png ya
+## 34      ggplotBarplotPlantelGen3.png ya
+## 35      ggplotBarplotPlantelGen4.png ya 
+## 36       ggplotBarplotPlantelLic.png ya
+## 37      ggplotBarplotPlantelLic2.png ya
+## 38      ggplotBarplotPlantelLic3.png ya
+## 39  ggplotBarplotPlantelMaterias.png ya
+## 40 ggplotBarplotPlantelMaterias2.png ya 
+## 41 ggplotBarplotPlantelMaterias3.png ya
 ```
-
