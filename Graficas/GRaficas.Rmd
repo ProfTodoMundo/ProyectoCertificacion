@@ -70,6 +70,38 @@ archivos_png <- as.data.frame(nombres_archivos_png); print(archivos_png)
 
 ![Certificaciones por año por plantel](ggplotBarplotAnhoPlantel.png)
 
+![Certificaciones por año por planteles 2](ggplotBarplotAnhoPlantel2.png)
+![Certificaciones por año por planteles 3](ggplotBarplotAnhoPlantel3.png)
+
+# Graficas de Certificaciones por Generacion
+
+![Certificaciones por generacion por licenciatura](ggplotBarplotGenLic.png)
+
+
+![]()
+
+
+![]()
+
+
+![]()
+
+
+![]()
+
+
+![]()
+
+
+![]()
+
+
+![]()
+
+
+![]()
+
+
 ```{r}
 ## 1                     BarPlotLic.png ya
 ## 2              BarplotPlantelCal.png ya
@@ -81,9 +113,9 @@ archivos_png <- as.data.frame(nombres_archivos_png); print(archivos_png)
 ## 8          ggplotBarplotAnhoLic2.png ya
 ## 9      ggplotBarplotAnhoMaterias.png ya
 ## 10    ggplotBarplotAnhoMaterias2.png ya
-## 11      ggplotBarplotAnhoPlantel.png
-## 12     ggplotBarplotAnhoPlantel2.png
-## 13     ggplotBarplotAnhoPlantel3.png
+## 11      ggplotBarplotAnhoPlantel.png ya
+## 12     ggplotBarplotAnhoPlantel2.png ya
+## 13     ggplotBarplotAnhoPlantel3.png ya
 ## 14           ggplotBarplotGenLic.png
 ## 15          ggplotBarplotGenLic2.png
 ## 16      ggplotBarplotGenMaterias.png
