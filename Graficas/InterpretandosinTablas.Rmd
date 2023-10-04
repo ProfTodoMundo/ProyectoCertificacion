@@ -62,41 +62,32 @@ A pesar de que las actividades académicas y académico-administrativas se retom
 Una vez superada la primera ola y con la llegada de las vacunas, en el 2021 se obtuvieron la más grande cantidad de certificaciones, casi 125,000 certificaciones aplicadas, certificaciones todas en Línea, y con algunos cursos ya impartidos de manera presencial. 
 
 
+En la Figura 7 se muestran las certificaciones en planteles por año, se puede observar que hay dos periodos en los que se puede observar que el Plantel San Lorenzo Tezonco tienen aproximadamente la misma cantidad de certificaciones aplicadas, el primer periodo es de 2008 a 2011, con excepción de 2009, y de 2010 a 2019, excepto 2012. Quien muestra un incremento en sus números es el Plantel Cuautepec principalmente, pero sin lugar a dudas quien presentó un aumento notable es PESCER.
+
+![Certificaciones por año por planteles Figura 7](ggplotBarplotAnhoPlantel3.png){width=350}
+
 \subsection{Gráficas de Certificaciones por Planteles}
 
+La cantidad de certificaciones favorables son mayores a las no favorables en todos los plantleles
 
-![BarPlotPlantelCal](BarPlotPlantelCal.png)
+La certificación en Planteles como ya se mencionó antes en San Lorenzo Tezonco supera a los demás planteles (Figura 6), con excepción de Centro Histórico, la certificación favorable duplica a las no favorables
 
-![Planteles por Generación](BarplotPlantelGen.png)
-
-
-
-
-## Graficas de Certificaciones por Año
-
-![Certificaciones por Año por Licenciatura](ggplotBarplotAnhoLic.png)
+![Certificaciones favorables y no favorables por Planteles](BarPlotPlantelCal.png){width=350}
 
 
-![Certificaciones por año por plantel](ggplotBarplotAnhoPlantel.png)
+\subsection{Gráficas de Certificaciones por Generacion}
 
-![Certificaciones por año por planteles 2](ggplotBarplotAnhoPlantel2.png)
-![Certificaciones por año por planteles 3](ggplotBarplotAnhoPlantel3.png)
+En la Figura 8 se muestran las certificaciones por licenciatura considerando las generaciones 2001 a 2019, mientras que en la figura 9 se muestran las certificaciones en planteles por generación. 
 
-## Graficas de Certificaciones por Generacion
-
-![Certificaciones por generacion por licenciatura](ggplotBarplotGenLic.png)
+![Certificaciones por generacion considerando las licenciaturas](ggplotBarplotGenLic.png){width=350}
 
 
+![Certificaciones por generacion en planteles Figura 9](ggplotBarplotGenPlantel.png){width=350}
 
+En este gráfico podemos corroborar que el Plantel Cuautepec es quien muestra un incremento en sus certificaciones, por generación, incluso se puede apreciar un decaimiento en los números del Plantel San Lorenzo Tezonco, es importante observar que para el Plantel Centro Histrórico en el periodo de 2012 a 2018 la certificación muestra un ligero incremento con respecto a los años anteriores.
 
+\subsection{Gráficas de certificaciones relacionadas con Licenciaturas}
 
-![Certificaciones por generacion por planteles](ggplotBarplotGenPlantel.png)
-
-
-![Certificaciones por generación por planteles 2](ggplotBarplotGenPlantel2.png)
-## Gráficas de certificaciones relacionadas con Licenciaturas
-
-![Certificaciones por Licenciatura por calificaciones](ggplotBarplotLicCal.png)
 
 
 ![Certificaciones por Licenciatura por calificaciones](ggplotBarplotLicCal2.png)
