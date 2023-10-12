@@ -15,7 +15,6 @@ data_FnF <- data.frame(
 ) 
 # Crear una gráfica base
 p_favorables <- ggplot(data_FnF, aes(Año))
-
 # Agregar líneas y puntos para cada columna
 p_favorables <- p_favorables +
   geom_line(aes(y = CH_Favorables, color = "CH"), linetype = "solid") +
@@ -30,16 +29,12 @@ p_favorables <- p_favorables +
   geom_point(aes(y = SLT_Favorables, color = "SLT")) +
   geom_line(aes(y = PESCER_Favorables, color = "PESCER"), linetype = "solid") +
   geom_point(aes(y = PESCER_Favorables, color = "PESCER"))
-
-
 # Ajustar el escalado del eje X
 p_favorables <- p_favorables + scale_x_continuous(breaks = data_FnF$Año)
-
 # Configurar etiquetas y tema
 p_favorables <- p_favorables +
   labs(title = "Certificaciones Favorables en planteles",
-       x = "Año",
-       y = "Certificación") +
+       x = "Año", y = "Certificación") +
   scale_color_manual(name="Planteles",values = c(
     "CH" = "red",
     "GAM" = "blue",
@@ -48,14 +43,10 @@ p_favorables <- p_favorables +
     "SLT" = "magenta",
     "PESCER" = "orange"
   )) 
-
 # Imprimir la gráfica
 print(p_favorables)
-
-
 # Crear una gráfica base
 p_Nofavorables <- ggplot(data_FnF, aes(Año))
-
 # Agregar líneas y puntos para cada columna
 p_Nofavorables <- p_Nofavorables +
   geom_line(aes(y = CH_No_Favorables, color = "CH"), linetype = "solid") +
@@ -70,16 +61,12 @@ p_Nofavorables <- p_Nofavorables +
   geom_point(aes(y = SLT_No_Favorables, color = "SLT")) +
   geom_line(aes(y = PESCER_No_Favorables, color = "PESCER"), linetype = "solid") +
   geom_point(aes(y = PESCER_No_Favorables, color = "PESCER"))
-
-
 # Ajustar el escalado del eje X
 p_Nofavorables <- p_Nofavorables + scale_x_continuous(breaks = data_FnF$Año)
-
 # Configurar etiquetas y tema
 p_Nofavorables <- p_Nofavorables +
   labs(title = "Certificaciones No Favorables en planteles",
-       x = "Año",
-       y = "Certificación") +
+       x = "Año", y = "Certificación") +
   scale_color_manual(name="Planteles",values = c(
     "CH" = "red",
     "GAM" = "blue",
@@ -88,41 +75,29 @@ p_Nofavorables <- p_Nofavorables +
     "SLT" = "magenta",
     "PESCER" = "orange"
   )) 
-
-# Imprimir la gráfica
 print(p_Nofavorables)
-#install.packages("gridExtra")
-
 library(gridExtra)
 plot_list <- list(p_favorables, p_Nofavorables)
-
-# Organizar y mostrar los gráficos en una sola ventana
 grid.arrange(grobs = plot_list, nrow = 2)
 # - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - 
 # - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - 
-
 library(ggplot2)
 library(dplyr)
 library(tidyr)
 library(gridExtra)
-
 # Crear un conjunto de datos largo para facilitar la creación de gráficos
 data_FnF_long <- data_FnF %>%
   pivot_longer(cols = -Año, names_to = "Planteles_Casos", values_to = "Certificación")
-
 # Separar el nombre de la columna en "Planteles" y "Casos"
 data_FnF_long <- data_FnF_long %>%
   separate(Planteles_Casos, c("Planteles", "Casos"), sep = "_")
-
 # Definir colores claros y oscuros
 colores_favorables <- c("CH" = "red", "GAM" = "blue", "DV" = "green",
                         "IZT" = "brown", "SLT" = "magenta", "PESCER" = "orange")
 colores_no_favorables <- c("CH" = "lightcoral", "GAM" = "lightblue", "DV" = "lightgreen",
                            "IZT" = "lightbrown", "SLT" = "lightpink", "PESCER" = "lightyellow")
-
 # Crear una lista para almacenar los gráficos
 plot_list <- list()
-
 # Crear y agregar gráficos por separado para cada plantel y caso
 for (plantel in unique(data_FnF_long$Planteles)) {
   for (caso in unique(data_FnF_long$Casos)) {
@@ -144,69 +119,74 @@ for (plantel in unique(data_FnF_long$Planteles)) {
 grid.arrange(grobs = plot_list, ncol = 2)
 # - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - 
 # - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - -   
-
 library(ggplot2)
 library(dplyr)
 library(tidyr)
 library(gridExtra)
 library(purrr)
-
 # Crear un conjunto de datos largo para facilitar la creación de gráficos
 data_FnF_long <- data_FnF %>%
   pivot_longer(cols = -Año, names_to = "Planteles_Casos", values_to = "Certificación")
-
 # Separar el nombre de la columna en "Planteles" y "Casos"
 data_FnF_long <- data_FnF_long %>%
   separate(Planteles_Casos, c("Planteles", "Casos"), sep = "_")
-
 # Definir colores claros y oscuros
 colores_favorables <- c("CH" = "red", "GAM" = "blue", "DV" = "green",
                         "IZT" = "brown", "SLT" = "magenta", "PESCER" = "orange")
 colores_no_favorables <- c("CH" = "lightcoral", "GAM" = "lightblue", "DV" = "lightgreen",
                            "IZT" = "lightbrown", "SLT" = "lightpink", "PESCER" = "lightyellow")
-
-
-# Crear un gráfico de barras
-
-p3 <- ggplot(data_FnF, aes(x = factor(Año), y = GAM_Favorables)) +
-  geom_bar(stat = "identity", fill = "blue") +
-  labs(
-    title = "Número de certificaciones por año en toda la Universidad",
-    x = "Año",
-    y = "Cantidad de certificaciones"
-  ) +
-  theme_minimal()
-
-# Imprimir el gráfico
-print(p2)
-
-
-p2 <- ggplot(data_FnF, aes(x = factor(Año), y = GAM_Favorables)) +
-  geom_bar(stat = "identity", fill = "blue") +
-  labs(
-    title = "Número de certificaciones por año en toda la Universidad",
-    x = "Año",
-    y = "Cantidad de certificaciones"
-  ) +
-  theme_minimal()
-
-# Imprimir el gráfico
-print(p2)
-
 # Crear un gráfico de barras
 p1 <- ggplot(data_FnF, aes(x = factor(Año), y = CH_Favorables)) +
   geom_bar(stat = "identity", fill = "red") +
-  labs(
-    title = "Número de certificaciones por año en toda la Universidad",
-    x = "Año",
-    y = "Cantidad de certificaciones"
-  ) +
-  theme_minimal()
-
-# Imprimir el gráfico
+  labs(title = "Certificaciones Favorables",x = "Año",y = "CH"  ) + theme_minimal()
+p7 <- ggplot(data_FnF, aes(x = factor(Año), y = CH_No_Favorables)) +
+  geom_bar(stat = "identity", fill = "#FFC0CB") +
+  labs(title = "Certificaciones No Favorables",x = "Año",y = "CH"  ) +theme_minimal()
+p2 <- ggplot(data_FnF, aes(x = factor(Año), y = GAM_Favorables)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  labs(title = "",x = "Año",y = "GAM"  ) + theme_minimal()
+p8 <- ggplot(data_FnF, aes(x = factor(Año), y = GAM_No_Favorables)) +
+  geom_bar(stat = "identity", fill = "lightblue") +
+  labs(title = "",x = "Año",y = "GAM"  ) +theme_minimal()
+p3 <- ggplot(data_FnF, aes(x = factor(Año), y = DV_Favorables)) +
+  geom_bar(stat = "identity", fill = "green") +
+  labs(title = "",x = "Año",y = "DV"  ) +theme_minimal()
+p9 <- ggplot(data_FnF, aes(x = factor(Año), y = DV_No_Favorables)) +
+  geom_bar(stat = "identity", fill = "lightgreen") +
+  labs(title = "",x = "Año",y = "DV"  ) +theme_minimal()
+p4 <- ggplot(data_FnF, aes(x = factor(Año), y = IZT_Favorables)) +
+  geom_bar(stat = "identity", fill = "brown") +
+  labs(title = "",x = "Año",y = "IZT"  ) +theme_minimal()
+p10 <- ggplot(data_FnF, aes(x = factor(Año), y = IZT_No_Favorables)) +
+  geom_bar(stat = "identity", fill = "#D2B48C") +
+  labs(title = "",x = "Año",y = "IZT"  ) +theme_minimal()
+p5 <- ggplot(data_FnF, aes(x = factor(Año), y = SLT_Favorables)) +
+  geom_bar(stat = "identity", fill = "magenta") +
+  labs(title = "",x = "Año",y = "SLT"  ) +theme_minimal()
+p11 <- ggplot(data_FnF, aes(x = factor(Año), y = SLT_No_Favorables)) +
+  geom_bar(stat = "identity", fill = "#FFB6C1") +
+  labs(title = "",x = "Año",y = "SLT"  ) +  theme_minimal()
+p6 <- ggplot(data_FnF, aes(x = factor(Año), y = PESCER_Favorables)) +
+  geom_bar(stat = "identity", fill = "orange") +
+  labs(title = "",x = "Año", y = "PESCER"  ) +theme_minimal()
+p12 <- ggplot(data_FnF, aes(x = factor(Año), y = PESCER_No_Favorables)) +
+  geom_bar(stat = "identity", fill = "#FFD700") +
+  labs(title = "",x = "Año",y = "PESCER"  ) +theme_minimal()
 print(p1)
-
+print(p7)
+print(p2)
+print(p8)
+print(p3)
+print(p9)
+print(p4)
+print(p10)
+print(p5)
+print(p11)
+print(p6)
+print(p12)
 # - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - 
+plot_list <- list(p1,p7,p2,p8,p3,p9,p4,p10,p5,p11,p6,p12)
+grid.arrange(grobs = plot_list, ncol = 2)
 # - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - -   
 
 
