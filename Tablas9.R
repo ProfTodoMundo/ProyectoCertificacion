@@ -14,7 +14,7 @@ colores <- c("red", "green", "blue", "brown", "orange", "magenta")
 p <- ggplot(data, aes(x = Plantel, y = Cantidad, fill = Plantel)) +
   geom_bar(stat = "identity") +
   labs(
-    title = "Probabilidad de certificar en el primer intento",
+    title = "Certificación en la Universidad",
     x = "Plantel",
     y = "Cantidad"
   ) +
@@ -27,6 +27,6 @@ p <- ggplot(data, aes(x = Plantel, y = Cantidad, fill = Plantel)) +
 # Imprimir el gráfico
 print(p)
 
-ggsave("graficoCertificacionesPlanteles.pdf", plot = p, device = "pdf")
+ggsave("graficoCertificacionesPlanteles.pdf", plot = p,  width = 8, height = 6, units = "in",device = "pdf")
 
 # - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - 

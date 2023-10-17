@@ -30,7 +30,7 @@ print(p)
 
 
 # Guardar el gráfico en formato PDF
-ggsave("graficoCertificacionesUACManual.pdf", plot = p, device = "pdf")
+ggsave("graficoCertificacionesUACManual.pdf", plot = p,width = 8, height = 6, units = "in", device = "pdf")
 
 # Crear un gráfico de barras
 p <- ggplot(data, aes(x = factor(Año), y = Cantidad)) +
