@@ -135,3 +135,92 @@ print(p_CH)
 # <<==>> <<==>> <<==>> <<==>> <<==>> <<==>> <<==>> <<==>> <<==>> <<==>> <<==>> <<==>>
 plot_list <- list(p_CH,p_DV,p_IZT,p_GAM,p_SLT,p_PESCER)
 grid.arrange(grobs = plot_list, ncol = 3)
+
+# >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><<
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(gridExtra)
+# >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><<
+# >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><<
+data_Plantel_Lic <- data.frame(
+  Plantel = c("CH", "GAM", "DV", "IZT", "SLT", "PESCER"),
+  ISET = c(4628, 18211, 93, 14183, 36856, 29),
+  AyPC = c(30861, 17043, 1065, 1988, 41305, 38),
+  CPyAU = c(3875, 36315, 36016, 54457, 116407, 1436),
+  CAyCC = c(6, 15, 76, 1465, 2238, 0),
+  GENOMICAS = c(166, 119, 5886, 62, 460, 0),
+  CiSOC = c(588, 14410, 206, 588, 29077, 0),
+  COMYCULT = c(45230, 42077, 1413, 9207, 141630, 113),
+  CREACION = c(1966, 11903, 24891, 288, 25837, 383),
+  DERECHO = c(1805, 30905, 611, 1011, 3095, 21794),
+  FEHDI = c(1151, 7957, 12888, 421, 20571, 61),
+  HISTYSOCCON = c(884, 9658, 2018, 339, 25619, 0),
+  SOFTWARE = c(618, 11688, 84, 550, 16902, 33),
+  ISTU = c(9672, 7889, 42, 626, 14664, 5),
+  ISEI = c(1772, 10348, 166, 6625, 25524, 21),
+  ISENER = c(236, 160, 59, 205, 8701, 0),
+  MODELACION = c(142, 827, 61, 1888, 4698, 28),
+  NUTRICION = c(211, 6585, 234, 5028, 9378, 0),
+  PROMOCION = c(30101, 21931, 1158, 35379, 65514, 24),
+  PROTECCION = c(126, 2600, 16, 95, 4584, 0)
+)
+# >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><<
+Ttls <- colSums(data_Plantel_Lic[,2:ncol(data_Plantel_Lic)])
+Porcentajes_por_columna <- matrix(0, nrow = nrow(data_Plantel_Lic), ncol = ncol(data_Plantel_Lic) - 1)
+
+for(i in 2:ncol(data_Plantel_Lic)){
+  Porcentajes_por_columna[,i-1] <- (data_Plantel_Lic[,i] / Totales_por_columna[i-1]) * 100
+}
+View(Porcentajes_por_columna)
+PorcentajesLic <- round(Porcentajes_por_columna,2);View(PorcentajesLic)
+colSums(PorcentajesLic[,1:ncol(PorcentajesLic)])
+ncol(PorcentajesLic)
+rownames(PorcentajesLic)<- c("CH", "GAM", "DV", "IZT", "SLT", "PESCER")
+colnames(PorcentajesLic)<- c('ISET','AyPC','CPyAU','CAyCC','GENOMICAS',
+                             'CiSOC','COMYCULT','CREACION','DERECHO',
+                             'FEHDI','HISTYSOCCON','SOFTWARE','ISTU',
+                             'ISEI','ISENER','MODELACION','NUTRICION',
+                             'PROMOCION','PROTECCION')
+print(PorcentajesLic)
+
+library(officer)
+
+# Crear un nuevo documento
+doc <- read_docx()
+
+# Agregar un título al documento
+doc <- doc %>%
+  add_title("Porcentajes por Licenciatura y Plantel (Transpuesta)", level = 1)
+
+# Crear una tabla de datos
+data <- matrix(c(
+  6.25, 24.61, 0.13, 19.17, 49.81, 0.04,
+  33.44, 18.46, 1.15, 2.15, 44.75, 0.04,
+  1.56, 14.61, 14.49, 21.91, 46.84, 0.58,
+  0.16, 0.39, 2.00, 38.55, 58.89, 0.00,
+  2.48, 1.78, 87.94, 0.93, 6.87, 0.00,
+  1.31, 32.12, 0.46, 1.31, 64.80, 0.00,
+  18.87, 17.56, 0.59, 3.84, 59.09, 0.05,
+  3.01, 18.24, 38.14, 0.44, 39.59, 0.59,
+  3.05, 52.19, 1.03, 1.71, 5.23, 36.80,
+  2.67, 18.48, 29.94, 0.98, 47.79, 0.14,
+  2.30, 25.07, 5.24, 0.88, 66.51, 0.00,
+  2.07, 39.12, 0.28, 1.84, 56.58, 0.11,
+  29.40, 23.98, 0.13, 1.90, 44.57, 0.02,
+  3.99, 23.28, 0.37, 14.90, 57.41, 0.05,
+  2.52, 1.71, 0.63, 2.19, 92.95, 0.00,
+  1.86, 10.82, 0.80, 24.70, 61.46, 0.37,
+  0.98, 30.72, 1.09, 23.46, 43.75, 0.00,
+  19.53, 14.23, 0.75, 22.96, 42.51, 0.02,
+  1.70, 35.04, 0.22, 1.28, 61.77, 0.00
+), ncol = 6, byrow = TRUE)
+
+# Agregar la tabla al documento
+doc <- doc %>%
+  add_flextable(data, align = "center") %>%
+  autofit()
+
+# Guardar el documento
+print(doc, target = "porcentajes.docx")
+
