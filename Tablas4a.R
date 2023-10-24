@@ -166,38 +166,67 @@ data_Plantel_Lic <- data.frame(
   PROTECCION = c(126, 2600, 16, 95, 4584, 0)
 )
 # >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><<
-Ttls <- colSums(data_Plantel_Lic[,2:ncol(data_Plantel_Lic)])
-Porcentajes_por_columna <- matrix(0, nrow = nrow(data_Plantel_Lic), ncol = ncol(data_Plantel_Lic) - 1)
 
+# Calcula los totales por columna
+Totales_por_columna <- colSums(data_Plantel_Lic[,2:ncol(data_Plantel_Lic)])
+
+# Crea una nueva matriz de porcentajes
+Porcentajes_por_columna <- matrix(0, nrow = nrow(data_Plantel_Lic) + 1, ncol = ncol(data_Plantel_Lic) - 1)
+
+# Llena la matriz de porcentajes con los valores calculados y agrega la suma de la columna al final
 for(i in 2:ncol(data_Plantel_Lic)){
-  Porcentajes_por_columna[,i-1] <- (data_Plantel_Lic[,i] / Totales_por_columna[i-1]) * 100
+  Porcentajes_por_columna[,i-1] <- c((data_Plantel_Lic[,i] / Totales_por_columna[i-1]) * 100, sum(data_Plantel_Lic[,i]))
 }
-View(Porcentajes_por_columna)
-PorcentajesLic <- round(Porcentajes_por_columna,2);View(PorcentajesLic)
-colSums(PorcentajesLic[,1:ncol(PorcentajesLic)])
-ncol(PorcentajesLic)
-rownames(PorcentajesLic)<- c("CH", "GAM", "DV", "IZT", "SLT", "PESCER")
-colnames(PorcentajesLic)<- c('ISET','AyPC','CPyAU','CAyCC','GENOMICAS',
-                             'CiSOC','COMYCULT','CREACION','DERECHO',
-                             'FEHDI','HISTYSOCCON','SOFTWARE','ISTU',
-                             'ISEI','ISENER','MODELACION','NUTRICION',
-                             'PROMOCION','PROTECCION')
-print(PorcentajesLic)
-colSums(PorcentajesLic)
 
+# Agrega el nombre del último renglón
+rownames(Porcentajes_por_columna) <- c(data_Plantel_Lic$Plantel, "Total")
 
-TablaPorcentajesLic <- t(PorcentajesLic); print(TablaPorcentajesLic)
+# Imprime o visualiza la tabla de porcentajes por columna
+print(Porcentajes_por_columna)
 
-library(officer)
+# Inicializar el vector Totales
+Totales <- c()
 
-# Crear un nuevo documento
-doc <- read_docx()
+# Calcular totales
+for(i in 2:20){
+  Totales[i] <- sum(data_Plantel_Lic[2:7, i])
+}
 
-# Agregar un título al documento
-doc <- doc %>%
-  add_title("Porcentajes por Licenciatura y Plantel (Transpuesta)", level = 1)
+# Agregar los totales a la tabla
+data_Plantel_Lic_c <- rbind(data_Plantel_Lic, Totales)
+rownames(data_Plantel_Lic_c) <- c("CH", "GAM", "DV", "IZT", "SLT", "PESCER", "Totales")
 
+# Extraer los datos de licenciaturas
+Datos_PLic <- data_Plantel_Lic_c[, 2:20]
+
+# Calcular porcentajes
+Porcentajes <- matrix(0, 6, 19)
+for(i in 1:6){
+  for(j in 1:19){
+    Porcentajes[i,j] <- Datos_PLic[i,j] / Datos_PLic[7,j]
+  }
+}
+Porcentajes
+
+# Calcula los totales por columna
+Totales_por_columna <- colSums(data_Plantel_Lic[,2:ncol(data_Plantel_Lic)])
+
+# Crea una nueva matriz de porcentajes
+Porcentajes_por_columna <- matrix(0, nrow = nrow(data_Plantel_Lic) + 1, ncol = ncol(data_Plantel_Lic) - 1)
+
+# Llena la matriz de porcentajes con los valores calculados y agrega la suma de la columna al final
+for(i in 2:ncol(data_Plantel_Lic)){
+  Porcentajes_por_columna[,i-1] <- c((data_Plantel_Lic[,i] / Totales_por_columna[i-1]) * 100, sum(data_Plantel_Lic[,i]))
+}
+
+# Agrega el nombre del último renglón
+rownames(Porcentajes_por_columna) <- c(data_Plantel_Lic$Plantel, "Total")
+
+# Imprime o visualiza la tabla de porcentajes por columna
+print(Porcentajes_por_columna)
 # Crear una tabla de datos
+
+ 
 data <- matrix(c(
   6.25, 24.61, 0.13, 19.17, 49.81, 0.04,
   33.44, 18.46, 1.15, 2.15, 44.75, 0.04,
@@ -219,12 +248,5 @@ data <- matrix(c(
   19.53, 14.23, 0.75, 22.96, 42.51, 0.02,
   1.70, 35.04, 0.22, 1.28, 61.77, 0.00
 ), ncol = 6, byrow = TRUE)
-
-# Agregar la tabla al documento
-doc <- doc %>%
-  add_flextable(data, align = "center") %>%
-  autofit()
-
-# Guardar el documento
-print(doc, target = "porcentajes.docx")
-
+# Crea un nuevo documento DOCX
+print(data)

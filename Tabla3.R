@@ -54,3 +54,18 @@ p_NC <- p_NC + geom_text(aes(label = ifelse(NC > 1000, format(NC, big.mark = ","
 # Imprimir los gráficos
 print(p_C)
 print(p_NC)
+# >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><<
+data <- data.frame(
+  Licenciatura = c("ISET", "AyPC", "CPyAU", "CAyCC", "GENOMICAS", "CiSOC", "COMYCULT", "CREACION", "DERECHO", "FEHDI", "HISTYSOCCON", "SOFTWARE", "ISTU", "ISEI", "ISENER", "MODELACION", "NUTRICION", "PROMOCION", "PROTECCION"),
+  C = c(40221, 63532, 161383, 2865, 4429, 30339, 165426, 46718, 43184, 27880, 25704, 19503, 19246, 25305, 6545, 4922, 16725, 99276, 5178),
+  NC = c(33779, 28768, 87123, 935, 2264, 14530, 74244, 18550, 16037, 15169, 12814, 10372, 13652, 19151, 2816, 2722, 4711, 54831, 2243)
+)
+# >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><< >><<>><<
+View(data)
+TTls <- data[,2]+data[,3]
+data <- cbind(data,TTls);
+Prop <- data[,2]/data[,4]
+data <- cbind(data,Prop)
+Prop2 <- data[,2]/data[,3]
+data <- cbind(data,Prop2)
+
