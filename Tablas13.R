@@ -6,6 +6,21 @@ df <- data.frame(
   Valor = c(74000, 92300, 248506, 3800, 6693, 44869, 239670, 65268, 59221, 43049, 38518, 29875, 32898, 44456, 9361, 7644, 21436, 154107, 7421)
 )
 
+
+# Suma total de los valores
+suma_total <- sum(df$Valor)
+
+# Calcular los porcentajes
+df$Porcentaje <- (df$Valor / suma_total) * 100
+
+# Imprimir el resultado
+print(df)
+
+df_ordenado <- df[order(-df$Porcentaje), ]
+
+# Imprimir el resultado
+print(df_ordenado)
+
 # Utiliza melt para remodelar los datos en un formato "long"
 df_melted <- melt(df, id.vars = "Categoria")
 y_lim_max <- max(df_melted$value) + 15000
