@@ -1,3 +1,5 @@
+load("/home/todomundo/Documentos/Resultados/Repositorio/WkspceActualizado.RData")
+View(MiBDD)
 #<<==>><<==>><<==>><<==<<==>><<==>><<==>><<==>><<==>><<==<<==>><<==>><<==>><<==>><<==>><<==<<==>><<==>>
 library(dplyr)
 library(readr)
