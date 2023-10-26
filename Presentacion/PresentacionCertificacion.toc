@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {2}{Las Universidad}{3}{0}{1}
+\beamer@sectionintoc {3}{Introducci\'on y antecedentes}{3}{0}{2}
+\beamer@sectionintoc {4}{Descripci\'on del Problema}{8}{0}{3}

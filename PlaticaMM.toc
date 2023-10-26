@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {2}{Las Matem\'aticas}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{El Glamour de las Matem\'aticas}{5}{0}{1}
+\beamer@subsectionintoc {2}{2}{La relaci\'on Amorosa con las Matem\'aticas}{15}{0}{1}
+\beamer@subsectionintoc {2}{3}{Trabajo y m\'as Trabajo}{19}{0}{1}
+\beamer@sectionintoc {3}{Modelaci\'on Matem\'atica}{22}{0}{2}
+\beamer@subsectionintoc {3}{1}{Midiendo}{22}{0}{2}
+\beamer@subsectionintoc {3}{2}{Otras aplicaciones}{30}{0}{2}
+\beamer@sectionintoc {4}{\'Areas de Trabajo}{35}{0}{3}
+\beamer@sectionintoc {5}{MM-UACM}{42}{0}{4}
+\beamer@sectionintoc {6}{Planta Docente}{49}{0}{5}
