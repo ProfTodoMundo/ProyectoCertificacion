@@ -1,4 +1,5 @@
 load("/home/todomundo/Documentos/Resultados/Repositorio/WkspceActualizado.RData")
+load("/Users/todomundomx/Documents/CertProy/ArticuloCertGral/Repositorio/WkspceActualizado.RData")
 View(MiBDD)
 #<<==>><<==>><<==>><<==<<==>><<==>><<==>><<==>><<==>><<==<<==>><<==>><<==>><<==>><<==>><<==<<==>><<==>>
 library(dplyr)
