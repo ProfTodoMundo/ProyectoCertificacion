@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2023 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2023 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**PresentacionCertificacion.tex
-(./PresentacionCertificacion.tex
+**PresentacionEncuentroCEMR.tex
+(./PresentacionEncuentroCEMR.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
@@ -830,11 +830,11 @@ sty)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.st
-y)) (./PresentacionCertificacion.aux
+y)) (./PresentacionEncuentroCEMR.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-\openout1 = `PresentacionCertificacion.aux'.
+\openout1 = `PresentacionEncuentroCEMR.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
@@ -935,9 +935,9 @@ LaTeX Info: Redefining \ref on input line 64.
 LaTeX Info: Redefining \pageref on input line 64.
 LaTeX Info: Redefining \nameref on input line 64.
 
-(./PresentacionCertificacion.out) (./PresentacionCertificacion.out)
+(./PresentacionEncuentroCEMR.out) (./PresentacionEncuentroCEMR.out)
 \@outlinefile=\write5
-\openout5 = `PresentacionCertificacion.out'.
+\openout5 = `PresentacionEncuentroCEMR.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 64.
@@ -1015,7 +1015,7 @@ LaTeX Info: Redefining \% on input line 64.
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 64.
 
-(./PresentacionCertificacion.nav)
+(./PresentacionEncuentroCEMR.nav)
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
 
@@ -1030,7 +1030,7 @@ Overfull \hbox (147.3524pt too wide) has occurred while \output is active
 
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./logouacm.png (PNG copy)> <./mascotauacm.jpg>] (./PresentacionCertificacion.
+ <./logouacm.png (PNG copy)> <./mascotauacm.jpg>] (./PresentacionEncuentroCEMR.
 toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1557,23 +1557,23 @@ Overfull \hbox (147.3524pt too wide) has occurred while \output is active
 
  </usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write6
-\openout6 = `PresentacionCertificacion.nav'.
+\openout6 = `PresentacionEncuentroCEMR.nav'.
 
 \tf@toc=\write7
-\openout7 = `PresentacionCertificacion.toc'.
+\openout7 = `PresentacionEncuentroCEMR.toc'.
 
 \tf@snm=\write8
-\openout8 = `PresentacionCertificacion.snm'.
+\openout8 = `PresentacionEncuentroCEMR.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 558.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 558.
- (./PresentacionCertificacion.aux
+ (./PresentacionEncuentroCEMR.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 558.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 558.
-Package rerunfilecheck Info: File `PresentacionCertificacion.out' has not chang
+Package rerunfilecheck Info: File `PresentacionEncuentroCEMR.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 2ECA9DA28AC244E28F92BBD2D8763412;796.
  ) 
@@ -1593,7 +1593,7 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts
 lic/lm/lmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss
 bx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsso10.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsso8.pfb>
-Output written on PresentacionCertificacion.pdf (46 pages, 1365847 bytes).
+Output written on PresentacionEncuentroCEMR.pdf (46 pages, 1365847 bytes).
 PDF statistics:
  3855 PDF objects out of 4296 (max. 8388607)
  3649 compressed objects within 37 object streams

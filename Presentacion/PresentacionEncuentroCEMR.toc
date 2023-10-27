@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {2}{La Universidad Aut\'onoma de la Ciudad de M\'exico}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Introducci\'on y antecedentes}{3}{0}{1}
+\beamer@sectionintoc {3}{Metodolog\'ia}{8}{0}{2}
+\beamer@subsectionintoc {3}{1}{Preprocesamiento de datos}{8}{0}{2}
+\beamer@subsectionintoc {3}{2}{Procesamiento de datos}{16}{0}{2}
+\beamer@sectionintoc {4}{Resultados}{19}{0}{3}
+\beamer@subsectionintoc {4}{1}{Gr\'aficas}{19}{0}{3}
+\beamer@subsectionintoc {4}{2}{La No Certificaci\'on en la UACM}{39}{0}{3}
+\beamer@subsectionintoc {4}{3}{Certificaci\'on primer intento}{41}{0}{3}
+\beamer@subsectionintoc {4}{4}{Intentos antes de certificar}{42}{0}{3}
+\beamer@sectionintoc {5}{Trabajo futuro}{44}{0}{4}
