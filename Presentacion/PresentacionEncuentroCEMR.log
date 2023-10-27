@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2023 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2023 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,8 +822,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.
 sty)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeIlmenau.sty
-(/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthememiniframes
+(/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeJuanLesPins.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemesmoothtree
 .sty)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
 
@@ -836,21 +837,21 @@ LaTeX Info: Redefining \% on input line 23.
 )
 \openout1 = `PresentacionEncuentroCEMR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 70.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -921,7 +922,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box80
-Package hyperref Info: Link coloring OFF on input line 64.
+Package hyperref Info: Link coloring OFF on input line 70.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -931,60 +932,60 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count173
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
 
 (./PresentacionEncuentroCEMR.out) (./PresentacionEncuentroCEMR.out)
 \@outlinefile=\write5
 \openout5 = `PresentacionEncuentroCEMR.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 64.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 64.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 64.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 64.
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 70.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 64.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 64.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 64.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 64.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 64.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 64.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 64.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 64.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 64.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 64.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 64.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 64.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 64.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 64.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 64.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 64.
+(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 64.
+(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 64.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 64.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 64.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 70.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1010,547 +1011,772 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
+LaTeX Info: Redefining \. on input line 70.
+LaTeX Info: Redefining \% on input line 70.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 64.
+LaTeX Info: Redefining \selectfont on input line 70.
 
 (./PresentacionEncuentroCEMR.nav)
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 70.
 
-Overfull \hbox (145.93571pt too wide) in paragraph at lines 64--64
- [][] 
+Overfull \hbox (371.66267pt too wide) in paragraph at lines 70--70
+ [][]  
  []
 
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (48.6133pt too wide) in paragraph at lines 70--70
+ [][][][]  
+ []
+
+
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./logouacm.png (PNG copy)> <./mascotauacm.jpg>] (./PresentacionEncuentroCEMR.
-toc
+ <./logo-uacm-ac.png> <./mascotauacm.jpg>] (./PresentacionEncuentroCEMR.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [2
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [3
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [4
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 127.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 133.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [5
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [6
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [7
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [8
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [9
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [10
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [11
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [12
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [13
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [14
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [15
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [16
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [17
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [18
 
 ]
-<Imagenes/graficoCertificacionesUACManual.pdf, id=1557, 578.16pt x 433.62pt>
+<Imagenes/graficoCertificacionesUACManual.pdf, id=645, 578.16pt x 433.62pt>
 File: Imagenes/graficoCertificacionesUACManual.pdf Graphic file (type pdf)
 <use Imagenes/graficoCertificacionesUACManual.pdf>
 Package pdftex.def Info: Imagenes/graficoCertificacionesUACManual.pdf  used on 
-input line 319.
+input line 325.
 (pdftex.def)             Requested size: 284.52713pt x 156.49345pt.
 
-Overfull \vbox (5.23286pt too high) detected at line 319
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
  []
 
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [19
 
  <./Imagenes/graficoCertificacionesUACManual.pdf>]
-<Imagenes/graficoCertificacionPlantelesAnhos.pdf, id=1639, 578.16pt x 433.62pt>
-
+<Imagenes/graficoCertificacionPlantelesAnhos.pdf, id=683, 578.16pt x 433.62pt>
 File: Imagenes/graficoCertificacionPlantelesAnhos.pdf Graphic file (type pdf)
 <use Imagenes/graficoCertificacionPlantelesAnhos.pdf>
 Package pdftex.def Info: Imagenes/graficoCertificacionPlantelesAnhos.pdf  used 
-on input line 326.
+on input line 332.
 (pdftex.def)             Requested size: 284.52713pt x 156.49345pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [20
 
  <./Imagenes/graficoCertificacionPlantelesAnhos.pdf>]
-<Imagenes/graficoCertificacionPlantelGeneracion.pdf, id=1721, 578.16pt x 433.62
-pt>
+<Imagenes/graficoCertificacionPlantelGeneracion.pdf, id=719, 578.16pt x 433.62p
+t>
 File: Imagenes/graficoCertificacionPlantelGeneracion.pdf Graphic file (type pdf
 )
 <use Imagenes/graficoCertificacionPlantelGeneracion.pdf>
 Package pdftex.def Info: Imagenes/graficoCertificacionPlantelGeneracion.pdf  us
-ed on input line 333.
+ed on input line 339.
 (pdftex.def)             Requested size: 284.52713pt x 156.49345pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [21
 
  <./Imagenes/graficoCertificacionPlantelGeneracion.pdf>]
-<Imagenes/graficoCertificacionesPlanteles.pdf, id=1803, 578.16pt x 433.62pt>
+<Imagenes/graficoCertificacionesPlanteles.pdf, id=754, 578.16pt x 433.62pt>
 File: Imagenes/graficoCertificacionesPlanteles.pdf Graphic file (type pdf)
 <use Imagenes/graficoCertificacionesPlanteles.pdf>
 Package pdftex.def Info: Imagenes/graficoCertificacionesPlanteles.pdf  used on 
-input line 340.
+input line 346.
 (pdftex.def)             Requested size: 284.52713pt x 156.49345pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [22
 
  <./Imagenes/graficoCertificacionesPlanteles.pdf>]
-<Imagenes/graficoPorcentajesPlantel.pdf, id=1885, 504.88625pt x 504.88625pt>
+<Imagenes/graficoPorcentajesPlantel.pdf, id=789, 504.88625pt x 504.88625pt>
 File: Imagenes/graficoPorcentajesPlantel.pdf Graphic file (type pdf)
 <use Imagenes/graficoPorcentajesPlantel.pdf>
 Package pdftex.def Info: Imagenes/graficoPorcentajesPlantel.pdf  used on input 
-line 348.
+line 354.
 (pdftex.def)             Requested size: 284.52937pt x 156.48999pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [23
 
  <./Imagenes/graficoPorcentajesPlantel.pdf>]
-<Tablas/CertificacionPlanteles.png, id=1966, 257.96375pt x 174.6525pt>
+<Tablas/CertificacionPlanteles.png, id=825, 257.96375pt x 174.6525pt>
 File: Tablas/CertificacionPlanteles.png Graphic file (type png)
 <use Tablas/CertificacionPlanteles.png>
 Package pdftex.def Info: Tablas/CertificacionPlanteles.png  used on input line 
-355.
+361.
 (pdftex.def)             Requested size: 284.55215pt x 156.49823pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [24
 
  <./Tablas/CertificacionPlanteles.png>]
-<Imagenes/graficoCertificacionPlantelesFnF.pdf, id=2045, 1190.4475pt x 616.3025
-pt>
+<Imagenes/graficoCertificacionPlantelesFnF.pdf, id=856, 1190.4475pt x 616.3025p
+t>
 File: Imagenes/graficoCertificacionPlantelesFnF.pdf Graphic file (type pdf)
 <use Imagenes/graficoCertificacionPlantelesFnF.pdf>
 Package pdftex.def Info: Imagenes/graficoCertificacionPlantelesFnF.pdf  used on
- input line 362.
+ input line 368.
 (pdftex.def)             Requested size: 284.51436pt x 156.48267pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [25
 
  <./Imagenes/graficoCertificacionPlantelesFnF.pdf>]
-<Tablas/CertificacionFnFPlanteles.png, id=2128, 257.96375pt x 174.6525pt>
+<Tablas/CertificacionFnFPlanteles.png, id=892, 257.96375pt x 174.6525pt>
 File: Tablas/CertificacionFnFPlanteles.png Graphic file (type png)
 <use Tablas/CertificacionFnFPlanteles.png>
 Package pdftex.def Info: Tablas/CertificacionFnFPlanteles.png  used on input li
-ne 369.
+ne 375.
 (pdftex.def)             Requested size: 284.55215pt x 156.49823pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [26
 
  <./Tablas/CertificacionFnFPlanteles.png>]
-<Imagenes/graficoCertificacionesLicenciaturas.pdf, id=2206, 578.16pt x 433.62pt
->
+<Imagenes/graficoCertificacionesLicenciaturas.pdf, id=924, 578.16pt x 433.62pt>
+
 File: Imagenes/graficoCertificacionesLicenciaturas.pdf Graphic file (type pdf)
 <use Imagenes/graficoCertificacionesLicenciaturas.pdf>
 Package pdftex.def Info: Imagenes/graficoCertificacionesLicenciaturas.pdf  used
- on input line 376.
+ on input line 382.
 (pdftex.def)             Requested size: 284.52713pt x 156.49345pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [27
 
  <./Imagenes/graficoCertificacionesLicenciaturas.pdf>]
-<Tablas/CertificacionTtlLic.png, id=2288, 288.07625pt x 445.665pt>
+<Tablas/CertificacionTtlLic.png, id=959, 288.07625pt x 445.665pt>
 File: Tablas/CertificacionTtlLic.png Graphic file (type png)
 <use Tablas/CertificacionTtlLic.png>
-Package pdftex.def Info: Tablas/CertificacionTtlLic.png  used on input line 383
+Package pdftex.def Info: Tablas/CertificacionTtlLic.png  used on input line 389
 .
 (pdftex.def)             Requested size: 284.537pt x 156.4883pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [28
 
  <./Tablas/CertificacionTtlLic.png>]
-<Imagenes/graficoCertificacionesLicGral.pdf, id=2365, 931.48pt x 530.98375pt>
+<Imagenes/graficoCertificacionesLicGral.pdf, id=990, 931.48pt x 530.98375pt>
 File: Imagenes/graficoCertificacionesLicGral.pdf Graphic file (type pdf)
 <use Imagenes/graficoCertificacionesLicGral.pdf>
 Package pdftex.def Info: Imagenes/graficoCertificacionesLicGral.pdf  used on in
-put line 390.
+put line 396.
 (pdftex.def)             Requested size: 284.52028pt x 156.493pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [29
 
  <./Imagenes/graficoCertificacionesLicGral.pdf>]
-<Imagenes/GraficasCertificacionLicenciaturas1.pdf, id=2447, 599.23875pt x 563.1
+<Imagenes/GraficasCertificacionLicenciaturas1.pdf, id=1026, 599.23875pt x 563.1
 0374pt>
 File: Imagenes/GraficasCertificacionLicenciaturas1.pdf Graphic file (type pdf)
 <use Imagenes/GraficasCertificacionLicenciaturas1.pdf>
 Package pdftex.def Info: Imagenes/GraficasCertificacionLicenciaturas1.pdf  used
- on input line 397.
+ on input line 403.
 (pdftex.def)             Requested size: 284.53163pt x 156.49083pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [30
 
  <./Imagenes/GraficasCertificacionLicenciaturas1.pdf>]
-<Imagenes/GraficasCertificacionLicenciaturas2.pdf, id=2529, 599.23875pt x 563.1
+<Imagenes/GraficasCertificacionLicenciaturas2.pdf, id=1061, 599.23875pt x 563.1
 0374pt>
 File: Imagenes/GraficasCertificacionLicenciaturas2.pdf Graphic file (type pdf)
 <use Imagenes/GraficasCertificacionLicenciaturas2.pdf>
 Package pdftex.def Info: Imagenes/GraficasCertificacionLicenciaturas2.pdf  used
- on input line 404.
+ on input line 410.
 (pdftex.def)             Requested size: 284.53163pt x 156.49083pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [31
 
  <./Imagenes/GraficasCertificacionLicenciaturas2.pdf>]
-<Imagenes/GraficasCertificacionLicenciaturas3.pdf, id=2612, 599.23875pt x 563.1
+<Imagenes/GraficasCertificacionLicenciaturas3.pdf, id=1097, 599.23875pt x 563.1
 0374pt>
 File: Imagenes/GraficasCertificacionLicenciaturas3.pdf Graphic file (type pdf)
 <use Imagenes/GraficasCertificacionLicenciaturas3.pdf>
 Package pdftex.def Info: Imagenes/GraficasCertificacionLicenciaturas3.pdf  used
- on input line 411.
+ on input line 417.
 (pdftex.def)             Requested size: 284.53163pt x 156.49083pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [32
 
  <./Imagenes/GraficasCertificacionLicenciaturas3.pdf>]
-<Imagenes/GraficasCertificacionLicenciaturas4.pdf, id=2693, 599.23875pt x 563.1
+<Imagenes/GraficasCertificacionLicenciaturas4.pdf, id=1132, 599.23875pt x 563.1
 0374pt>
 File: Imagenes/GraficasCertificacionLicenciaturas4.pdf Graphic file (type pdf)
 <use Imagenes/GraficasCertificacionLicenciaturas4.pdf>
 Package pdftex.def Info: Imagenes/GraficasCertificacionLicenciaturas4.pdf  used
- on input line 418.
+ on input line 424.
 (pdftex.def)             Requested size: 284.53163pt x 156.49083pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [33
 
  <./Imagenes/GraficasCertificacionLicenciaturas4.pdf>]
-<Imagenes/GraficasCertificacionLicenciaturas5.pdf, id=2775, 599.23875pt x 563.1
+<Imagenes/GraficasCertificacionLicenciaturas5.pdf, id=1168, 599.23875pt x 563.1
 0374pt>
 File: Imagenes/GraficasCertificacionLicenciaturas5.pdf Graphic file (type pdf)
 <use Imagenes/GraficasCertificacionLicenciaturas5.pdf>
 Package pdftex.def Info: Imagenes/GraficasCertificacionLicenciaturas5.pdf  used
- on input line 425.
+ on input line 431.
 (pdftex.def)             Requested size: 284.53163pt x 156.49083pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [34
 
  <./Imagenes/GraficasCertificacionLicenciaturas5.pdf>]
-<Tablas/CertificacionLicPlanteles.png, id=2857, 529.98pt x 452.69125pt>
+<Tablas/CertificacionLicPlanteles.png, id=1203, 529.98pt x 452.69125pt>
 File: Tablas/CertificacionLicPlanteles.png Graphic file (type png)
 <use Tablas/CertificacionLicPlanteles.png>
 Package pdftex.def Info: Tablas/CertificacionLicPlanteles.png  used on input li
-ne 432.
+ne 438.
 (pdftex.def)             Requested size: 284.52711pt x 156.48949pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [35
 
  <./Tablas/CertificacionLicPlanteles.png>]
-<Imagenes/graficoCertificacionFavorableLic.pdf, id=2935, 616.3025pt x 449.68pt>
+<Imagenes/graficoCertificacionFavorableLic.pdf, id=1234, 616.3025pt x 449.68pt>
 
 File: Imagenes/graficoCertificacionFavorableLic.pdf Graphic file (type pdf)
 <use Imagenes/graficoCertificacionFavorableLic.pdf>
 Package pdftex.def Info: Imagenes/graficoCertificacionFavorableLic.pdf  used on
- input line 439.
+ input line 445.
 (pdftex.def)             Requested size: 284.52762pt x 156.49149pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [36
 
  <./Imagenes/graficoCertificacionFavorableLic.pdf>]
-<Imagenes/graficoCertificacionNFLicenciatura.pdf, id=3017, 616.3025pt x 449.68p
+<Imagenes/graficoCertificacionNFLicenciatura.pdf, id=1270, 616.3025pt x 449.68p
 t>
 File: Imagenes/graficoCertificacionNFLicenciatura.pdf Graphic file (type pdf)
 <use Imagenes/graficoCertificacionNFLicenciatura.pdf>
 Package pdftex.def Info: Imagenes/graficoCertificacionNFLicenciatura.pdf  used 
-on input line 446.
+on input line 452.
 (pdftex.def)             Requested size: 284.52762pt x 156.49149pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [37
 
  <./Imagenes/graficoCertificacionNFLicenciatura.pdf>]
-<Tablas/CertificacionLicFnF.png, id=3099, 365.365pt x 449.68pt>
+<Tablas/CertificacionLicFnF.png, id=1305, 365.365pt x 449.68pt>
 File: Tablas/CertificacionLicFnF.png Graphic file (type png)
 <use Tablas/CertificacionLicFnF.png>
-Package pdftex.def Info: Tablas/CertificacionLicFnF.png  used on input line 453
+Package pdftex.def Info: Tablas/CertificacionLicFnF.png  used on input line 459
 .
 (pdftex.def)             Requested size: 284.54312pt x 156.49149pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [38
 
  <./Tablas/CertificacionLicFnF.png>]
-<Tablas/MateriaMaxIntNoCert.png, id=3177, 670.505pt x 704.6325pt>
+<Tablas/MateriaMaxIntNoCert.png, id=1335, 670.505pt x 704.6325pt>
 File: Tablas/MateriaMaxIntNoCert.png Graphic file (type png)
 <use Tablas/MateriaMaxIntNoCert.png>
-Package pdftex.def Info: Tablas/MateriaMaxIntNoCert.png  used on input line 462
+Package pdftex.def Info: Tablas/MateriaMaxIntNoCert.png  used on input line 468
 .
 (pdftex.def)             Requested size: 284.52603pt x 156.48187pt.
 
-Overfull \vbox (3.27686pt too high) detected at line 462
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
  []
 
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [39
 
  <./Tablas/MateriaMaxIntNoCert.png>]
-<Tablas/MateriasNoCert.png, id=3255, 789.95125pt x 631.35875pt>
+<Tablas/MateriasNoCert.png, id=1367, 789.95125pt x 631.35875pt>
 File: Tablas/MateriasNoCert.png Graphic file (type png)
 <use Tablas/MateriasNoCert.png>
-Package pdftex.def Info: Tablas/MateriasNoCert.png  used on input line 469.
+Package pdftex.def Info: Tablas/MateriasNoCert.png  used on input line 475.
 (pdftex.def)             Requested size: 284.52687pt x 156.49057pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [40
 
  <./Tablas/MateriasNoCert.png>]
-<Tablas/MateriasCertPrimera.png, id=3333, 803.0pt x 571.13374pt>
+<Tablas/MateriasCertPrimera.png, id=1397, 803.0pt x 571.13374pt>
 File: Tablas/MateriasCertPrimera.png Graphic file (type png)
 <use Tablas/MateriasCertPrimera.png>
-Package pdftex.def Info: Tablas/MateriasCertPrimera.png  used on input line 479
+Package pdftex.def Info: Tablas/MateriasCertPrimera.png  used on input line 485
 .
 (pdftex.def)             Requested size: 284.534pt x 156.49144pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [41
 
  <./Tablas/MateriasCertPrimera.png>]
-<Tablas/MateriasMaxIntSiCert.png, id=3410, 664.4825pt x 616.3025pt>
+<Tablas/MateriasMaxIntSiCert.png, id=1427, 664.4825pt x 616.3025pt>
 File: Tablas/MateriasMaxIntSiCert.png Graphic file (type png)
 <use Tablas/MateriasMaxIntSiCert.png>
-Package pdftex.def Info: Tablas/MateriasMaxIntSiCert.png  used on input line 48
-8.
+Package pdftex.def Info: Tablas/MateriasMaxIntSiCert.png  used on input line 49
+4.
 (pdftex.def)             Requested size: 284.52548pt x 156.48267pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [42
 
  <./Tablas/MateriasMaxIntSiCert.png>]
-<Tablas/MateriasPromSiCert.png, id=3488, 738.76pt x 647.41875pt>
+<Tablas/MateriasPromSiCert.png, id=1457, 738.76pt x 647.41875pt>
 File: Tablas/MateriasPromSiCert.png Graphic file (type png)
 <use Tablas/MateriasPromSiCert.png>
-Package pdftex.def Info: Tablas/MateriasPromSiCert.png  used on input line 496.
+Package pdftex.def Info: Tablas/MateriasPromSiCert.png  used on input line 502.
 
 (pdftex.def)             Requested size: 284.53056pt x 156.4901pt.
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [43
 
  <./Tablas/MateriasPromSiCert.png>]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [44
 
 ]
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [45
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 556.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 562.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 556.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 562.
 
 
-Overfull \hbox (147.3524pt too wide) has occurred while \output is active
- [][] 
+Overfull \hbox (373.07936pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (48.6133pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [46
@@ -1565,26 +1791,26 @@ Overfull \hbox (147.3524pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `PresentacionEncuentroCEMR.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 558.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 558.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 564.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 564.
  (./PresentacionEncuentroCEMR.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 558.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 558.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 564.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 564.
 Package rerunfilecheck Info: File `PresentacionEncuentroCEMR.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 2ECA9DA28AC244E28F92BBD2D8763412;796.
  ) 
 Here is how much of TeX's memory you used:
- 18816 strings out of 492649
- 356748 string characters out of 6129622
- 489166 words of memory out of 5000000
- 22134 multiletter control sequences out of 15000+600000
+ 18786 strings out of 492649
+ 355422 string characters out of 6129622
+ 442866 words of memory out of 5000000
+ 22104 multiletter control sequences out of 15000+600000
  35616 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,62p,899b,838s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,62p,899b,840s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2
 018/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2018/texmf-
@@ -1593,10 +1819,10 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts
 lic/lm/lmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss
 bx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsso10.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsso8.pfb>
-Output written on PresentacionEncuentroCEMR.pdf (46 pages, 1365847 bytes).
+Output written on PresentacionEncuentroCEMR.pdf (46 pages, 1279002 bytes).
 PDF statistics:
- 3855 PDF objects out of 4296 (max. 8388607)
- 3649 compressed objects within 37 object streams
+ 1635 PDF objects out of 1728 (max. 8388607)
+ 1492 compressed objects within 15 object streams
  108 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 words of extra memory for PDF output out of 10000 (max. 10000000)
 
