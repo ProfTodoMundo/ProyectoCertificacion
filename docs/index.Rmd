@@ -1,8 +1,19 @@
 ---
-title: "Revistas"
-author: "Carlos E Martinez R"
+title: "Revistas para publicar"
+author:
+  - name: "Carlos E. Martinez-Rodríguez"
+    affiliation: "Universidad Autónoma de la Ciudad de México (UACM)"
+    email: "carlos.martinez@uacm.edu.mx"
 date: "2023-10-30"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    code_folding: show
+    css: styles.css
+    theme: united
+    highlight: tango
 ---
 
 ```{r setup, include=FALSE}
