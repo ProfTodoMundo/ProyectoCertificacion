@@ -1,0 +1,126 @@
+---
+title: "Revistas"
+author: "Carlos E Martinez R"
+date: "2023-10-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Revistas
+
+- *[Cogent Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=oaed20)*  is a leading multidisciplinary open access journal, publishing high-quality, peer-reviewed articles across the breadth of educational research.
+
+- *[Journal of Statistics Education](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=ujse21)*
+
+- *[Journal of Educational Measurement](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=caie20#publication-charges)*
+
+- *[Assessment in Education: Principles, Policy & Practice](https://www.tandfonline.com/toc/caie20/current)*
+
+- *[Studies in Educational Evaluation](https://www.sciencedirect.com/journal/studies-in-educational-evaluation/about/insights)*
+
+- *[International Journal of Testing](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=hijt20)*
+
+- *[Educational and Psychological Measurement](https://journals.sagepub.com/aims-scope/EPM)*
+
+- *[Measurement: Interdisciplinary Research and Perspectives](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=hmes20)*
+
+- *[Higher Education Research & Development](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=cher20#publication-charges)*
+
+- *[Studies in Higher Education](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=cshe20#publication-charges)*
+
+- *[Assessment & Evaluation in Higher Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=caeh20)*
+
+- *[Journal of College Student Development](https://muse.jhu.edu/issue/51213)*
+
+16. *Research in the Teaching of English*: Se enfoca en la enseñanza del inglés como lengua extranjera y publica artículos que utilizan métodos cuantitativos para evaluar el aprendizaje del idioma .
+17. *Language Testing*: Se enfoca en la evaluación del aprendizaje del idioma y publica artículos que utilizan métodos cuantitativos para evaluar el aprendizaje del idioma .
+18. *Journal of Research in Science Teaching*: Se enfoca en la enseñanza y el aprendizaje de las ciencias naturales y publica artículos que utilizan métodos cuantitativos para evaluar el aprendizaje .
+19. *International Journal of Science Education*: Se enfoca en la enseñanza y el aprendizaje de las ciencias naturales y publica artículos que utilizan métodos cuantitativos para evaluar el aprendizaje .
+20. *Journal of Research in Music Education*: Se enfoca en la enseñanza y el aprendizaje de música y publica artículos que utilizan métodos cuantitativos para evaluar el aprendizaje musical .
+21. *Music Perception: An Interdisciplinary Journal*: Se enfoca en la percepción musical y publica artículos que utilizan métodos cuantitativos para evaluarla .
+22. *Journal of Research on Technology in Education*: Se enfoca en el uso de tecnología en educación y publica artículos que utilizan métodos cuantitativos para evaluar su efectividad .
+
+- *[Journal od educational and behavioral statistics](https://www.aera.net/Publications/Journals/Journal-of-Educational-Behavioral-Statistics)*
+
+
+- *Revista Mexicana de Investigación Educativa*^1^: Es una publicación del Consejo Mexicano de Investigación Educativa que aborda temas diversos sobre educación. Está incluida en varias bases de datos como SCOPUS, Web of Science y Scielo.
+
+- *[Revista de Educación](https://www.educacionyfp.gob.es/revista-de-educacion/normas-presentacion/articulos.html)*
+
+- *[Revista Española de Pedagogía](https://revistadepedagogia.org/normas-editores/)*
+
+- *[Estudios sobre Educación](https://revistas.unav.edu/index.php/estudios-sobre-educacion/about/submissions)*
+
+- *MAGIS - Revista Internacional de Investigación en Educación*^5^: Es una revista cuatrimestral editada por la Pontificia Universidad Javeriana de Colombia que publica artículos sobre educación en español, inglés y portugués. Está indexada en SCOPUS, Web of Science y Scielo, entre otras.
+- *Revista Educación XX1*^6^: Es una revista anual editada por la Facultad de Educación de la Universidad Nacional de Educación a Distancia (UNED) que publica artículos sobre educación en español e inglés. Está indexada en SCOPUS, Web of Science y ERIH Plus, entre otras.
+- *Perfiles Educativos*: Es una revista cuatrimestral editada por el Instituto de Investigaciones sobre la Universidad y la Educación (IISUE) de la Universidad Nacional Autónoma de México (UNAM) que publica artículos sobre educación en español e inglés. Está indexada en SCOPUS, Web of Science y Scielo, entre otras.
+- *Revista Latinoamericana de Estudios Educativos*: Es una revista trimestral editada por el Centro de Estudios Educativos (CEE) que publica artículos sobre educación en español e inglés. Está indexada en SCOPUS, Web of Science y Scielo, entre otras.
+- *Actualidades Investigativas en Educación*: Es una revista cuatrimestral editada por el Instituto de Investigación en Educación (INIE) de la Universidad de Costa Rica que publica artículos sobre educación en español e inglés. Está indexada en SCOPUS, Web of Science y Scielo, entre otras.
+- *Educación y Educadores*: Es una revista cuatrimestral editada por la Facultad de Educación de la Universidad de La Sabana que publica artículos sobre educación en español e inglés. Está indexada en SCOPUS, Web of Science y Scielo, entre otras.
+- *Revista Electrónica de Investigación Educativa*: Es una revista semestral editada por el Instituto de Investigación y Desarrollo Educativo (IIDE) de la Universidad Autónoma de Baja California (UABC) que publica artículos sobre educación en español e inglés. Está indexada en SCOPUS, Web of Science y Scielo, entre otras.
+- *Revista Iberoamericana para la Investigación y el Desarrollo Educativo*: Es una revista semestral editada por la Red Iberoamericana para la Investigación y el Desarrollo Educativo (RIDE) que publica artículos sobre educación en español e inglés. Está indexada en SCOPUS, Web of Science y Latindex, entre otras.
+- *Revista Latinoamericana de Investigación en Matemática Educativa*: Es una revista cuatrimestral editada por el Grupo Editorial Iberoamérica que publica artículos sobre matemática educativa en español e inglés. Está indexada en SCOPUS, Web of Science y Scielo, entre otras.
+- *Revista de Educación en Ciencias*: Es una revista semestral editada por la Universidad Pedagógica Nacional de Colombia que publica artículos sobre educación en ciencias en español e inglés. Está indexada en SCOPUS, Web of Science y Latindex, entre otras.
+- *Revista Brasileira de Educação Especial*: Es una revista cuatrimestral editada por la Associação Brasileira de Pesquisadores em Educação Especial (ABPEE) que publica artículos sobre educación especial en portugués e inglés. Está indexada en SCOPUS, Web of Science y Scielo, entre otras.
+- *Revista Colombiana de Educación*: Es una revista semestral editada por la Facultad de Ciencias de la Educación de
+
+
+- *Revista Brasileira de Educação Especial*: *1.667*
+- *Revista Española de Pedagogía*: *1.333*
+- *Revista Educación XX1*: *1.222*
+- *Revista de Educación*: *1.167*
+- *Revista Latinoamericana de Investigación en Matemática Educativa*: *0.933*
+- *Revista Mexicana de Investigación Educativa*: *0.833*
+- *MAGIS - Revista Internacional de Investigación en Educación*: *0.778*
+- *Revista Brasileira de História da Educação*: *0.667*
+- *Estudios sobre Educación*: *0.667*
+- *Perfiles Educativos*: *0.667*
+- *Actualidades Investigativas en Educación*: *0.667*
+- *Educación y Educadores*: *0.667*
+- *Revista Electrónica de Investigación Educativa*: *0.667*
+- *Revista Iberoamericana para la Investigación y el Desarrollo Educativo*: *0.667*
+- *Revista Latinoamericana de Estudios Educativos*: *0.500*
+- *Revista Colombiana de Educación*: *0.500*
+- *Revista Docencia Universitaria*: *0.500*
+- *Revista Historia de la Educación Latinoamericana*: *0.500*
+- *Revista Panamericana de Pedagogía, Saberes y Quehaceres del Pedagogo*: *0.500*
+- *Revista Investigaciones en Educación*: *0.500*
+- *Revista EduSol*: *0.500*
+- *Revista Educare*: *0.500*
+- *Revista Espacio del Currículo*: *0.500*
+- *Revista Pensamiento Educativo*: *0.500*
+
+
+Origen: Conversación con Bing, 29/10/2023
+
+
+
+(1) Rankings universitarios | Revista de la Educación Superior - Elsevier. https://www.elsevier.es/es-revista-revista-educacion-superior-216-articulo-rankings-universitarios-S0185276015000709.
+
+(2) Publicaciones de los investigadores educativos mexicanos en ... - Elsevier.
+https://www.elsevier.es/es-revista-perfiles-educativos-85-articulo-publicaciones-investigadores-educativos-mexicanos-indices-S0185269814706221.
+
+(3) Revista de Investigación Educativa - Redalyc. https://www.redalyc.org/pdf/2833/283343416015.pdf.
+
+(4) Revistas científicas estudiantiles latinoamericanas: un espacio para .... https://www.elsevier.es/es-revista-educacion-medica-71-articulo-revistas-cientificas-estudiantiles-latinoamericanas-un-S1575181318300627.
+
+(5) Trabajo y rendimiento escolar de los estudiantes universitarios. El .... https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-27602013000200001.
+
+(6) Satisfacción estudiantil en universitarios: una revisión sistemática de .... https://www.redalyc.org/journal/440/44070055025/.
+
+(7) Publindex - Minciencias. https://scienti.minciencias.gov.co/publindex/.
+
+(8) Rankings Universitarios – Observatorio de la Calidad y el Rendimiento .... https://indicadores.usal.es/portal/resultados/rankings/.
+
+
+# Revisadas
+
+23. *Computers & Education*: Se enfoca en el uso de tecnología en educación y publica artículos que utilizan métodos cuantitativos para evaluar su efectividad 1.
+24. *Journal of Educational Psychology*: Publica artículos sobre la teoría y la práctica de la psicología educativa, incluidas las calificaciones de los estudiantes .
+25. *British Journal of Educational Psychology*: Publica artículos sobre la teoría y la práctica de la psicología educativa, incluidas las calificaciones de los estudiantes .
+- *Journal of Educational Statistics*: Publica artículos que cubren una amplia gama de temas en estadísticas educativas, incluidas las calificaciones de los estudiantes ¹.
+- *Educational Assessment*: Publica artículos sobre evaluación educativa,
+incluidas las calificaciones de los estudiantes ⁵.
