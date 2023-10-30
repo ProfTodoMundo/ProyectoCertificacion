@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 3. [Assessment in Education: Principles, Policy & Practice](https://www.tandfonline.com/toc/caie20/current)
 
-4. [Cogent Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=oaed20) is a leading multidisciplinary open access journal, publishing high-quality, peer-reviewed articles across the breadth of educational research.
+4. [Cogent Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=oaed20) 
 
 5. [Educación y Educadores](https://educacionyeducadores.unisabana.edu.co/index.php/eye/about/submissions)
 
@@ -95,86 +95,4 @@ knitr::opts_chunk$set(echo = TRUE)
 36. [Revista Española de Pedagogía](https://revistadepedagogia.org/normas-editores/)
 
 
-
-
-# Revistas
-
-
-- *[Cogent Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=oaed20)*  is a leading multidisciplinary open access journal, publishing high-quality, peer-reviewed articles across the breadth of educational research.
-
-- *[Journal of Statistics Education](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=ujse21)*
-
-- *[Journal of Educational Measurement](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=caie20#publication-charges)*
-
-- *[Assessment in Education: Principles, Policy & Practice](https://www.tandfonline.com/toc/caie20/current)*
-
-- *[Studies in Educational Evaluation](https://www.sciencedirect.com/journal/studies-in-educational-evaluation/about/insights)*
-
-- *[International Journal of Testing](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=hijt20)*
-
-- *[Educational and Psychological Measurement](https://journals.sagepub.com/aims-scope/EPM)*
-
-- *[Measurement: Interdisciplinary Research and Perspectives](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=hmes20)*
-
-- *[Higher Education Research & Development](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=cher20#publication-charges)*
-
-- *[Studies in Higher Education](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=cshe20#publication-charges)*
-
-- *[Assessment & Evaluation in Higher Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=caeh20)*
-
-- *[Journal of College Student Development](https://muse.jhu.edu/issue/51213)*
-
-
-- *[International Journal of Science Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tsed20)*
-
-- *[Journal of Research on Technology in Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ujrt20)*
-
-- *[Journal od educational and behavioral statistics](https://www.aera.net/Publications/Journals/Journal-of-Educational-Behavioral-Statistics)*
-
-- *[Revista Mexicana de Investigación Educativa](https://comie.org.mx/revista/v2018/rmie/index.php/nrmie/instructivoautores)*
-
-- *[Revista de Educación](https://www.educacionyfp.gob.es/revista-de-educacion/normas-presentacion/articulos.html)*
-
-- *[Revista Española de Pedagogía](https://revistadepedagogia.org/normas-editores/)*
-
-- *[Estudios sobre Educación](https://revistas.unav.edu/index.php/estudios-sobre-educacion/about/submissions)*
-
-- *[MAGIS - Revista Internacional de Investigación en Educación](https://revistas.javeriana.edu.co/index.php/MAGIS/about/submissions)*
-
-- *[Revista Educación XX1](https://revistas.uned.es/index.php/educacionXX1/guidelines)*
-
-- *[Perfiles Educativos](https://perfileseducativos.unam.mx/iisue_pe/index.php/perfiles/about/submissions)*
-
-- *[Revista Latinoamericana de Estudios Educativos](https://rlee.ibero.mx/index.php/rlee)*
-
-- *[Actualidades Investigativas en Educación](https://revistas.ucr.ac.cr/index.php/aie/about/submissions)*
-
-- *[Educación y Educadores](https://educacionyeducadores.unisabana.edu.co/index.php/eye/about/submissions)*
-
-
-- *[Revista Electrónica de Investigación Educativa](https://redie.uabc.mx/redie/about/submissions#authorGuidelines)*
-
-- *[Revista Iberoamericana para la Investigación y el Desarrollo Educativo](https://www.ride.org.mx/index.php/RIDE/indexaciones)*
-
-- *[Revista Latinoamericana de Investigación en Matemática Educativa](https://relime.org/index.php/relime/about)*
-
-- *[Revista de Educación en Ciencias](http://educacionyciencia.org/index.php/educacionyciencia/about/submissions)*
-
-- *[Revista Brasileira de Educação Especial](https://analytics.scielo.org/w/publication/size)*
-
-- *[Revista Colombiana de Educación](https://revistas.pedagogica.edu.co/index.php/RCE/indexacion)*
-
-
-- *[Revista Docencia Universitaria](https://revistas.uis.edu.co/index.php/revistadocencia/about)*
-
-- *[Revista Historia de la Educación Latinoamericana](https://revistas.uptc.edu.co/index.php/historia_educacion_latinamerican)*
-
-- *[Revista Panamericana de Pedagogía, Saberes y Quehaceres del Pedagogo](https://revistas.up.edu.mx/RPP/about)*
-
-- *[Revista Investigaciones en Educación](https://revistas.ufro.cl/ojs/index.php/educacion/about/submissions)*
-
-- *[Revista Educare](https://www.revistas.una.ac.cr/index.php/EDUCARE/guias)*
-
-
-- *[Revista Pensamiento Educativo](https://pensamientoeducativo.uc.cl//index.php/pel/about)*
 
