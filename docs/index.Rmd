@@ -20,7 +20,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Revistas ordenadas
+# Revistas (Primera revisión)
 
 1. [Actualidades Investigativas en Educación](https://revistas.ucr.ac.cr/index.php/aie/about/submissions)
 
