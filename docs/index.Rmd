@@ -112,3 +112,70 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 44. [Higher education for the future](https://us.sagepub.com/en-us/nam/journal/higher-education-future#submission-guidelines)
+
+
+
+# Nuevas revistas
+
+- [Estudios sobre educacion](https://revistas.unav.edu/index.php/estudios-sobre-educacion/index)
+
+- [Educare](https://www.revistas.una.ac.cr/index.php/educare)
+
+- [Perfiles educativos](https://perfileseducativos.unam.mx/iisue_pe/index.php/perfiles/about)
+
+
+- [Revista de educación](https://www.educacionyfp.gob.es/revista-de-educacion/inicio.html)
+
+- [IRRODL](https://www.irrodl.org/index.php/irrodl/about)
+
+
+- [Comunicar](https://www.revistacomunicar.com/index.php?contenido=tematica)
+
+- [Universidad de la Sabana](https://educacionyeducadores.unisabana.edu.co/index.php/eye/about)
+
+
+- [Revista Complutense de Educación](https://revistas.ucm.es/index.php/RCED/index)
+
+- [Revista de Investigación Educativa](https://revistas.um.es/rie) **ESTA ES LA REVISTA**
+
+- [Universidad Javeriana](https://revistas.javeriana.edu.co/index.php/MAGIS/indexation)
+
+- [Revista electrónica de investigación educativa](https://redie.uabc.mx/redie/about/submissions#authorGuidelines)
+
+
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+
+
+- []()
+
+- []()
+
+
+- []()
+
+- []()
+
+
+
+- []()
+
+- []()
+
