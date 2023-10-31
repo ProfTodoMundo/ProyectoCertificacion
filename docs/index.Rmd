@@ -98,11 +98,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 38. [Turkish studies](https://turkishstudies.net/education?mod=sayfabilgi&sayfa_alias=Aims%20&%20Scope)
 
-
 39. [Trames](https://kirj.ee/trames/?v=0b98720dcb2c)
 
-
 40. [Issues in Education Research](https://www.iier.org.au/iier-inf.html#submissions)
+
+## Adiciones
 
 41. [Journal of Humanities and Social Sciences](https://www.opastpublishers.com/highlights/methodology-journals-1652.html)
 
@@ -110,72 +110,30 @@ knitr::opts_chunk$set(echo = TRUE)
 
 43. [Journal of Education and e-learning research](https://www.asianonlinejournals.com/index.php/JEELR/about)
 
-
 44. [Higher education for the future](https://us.sagepub.com/en-us/nam/journal/higher-education-future#submission-guidelines)
-
 
 
 # Nuevas revistas
 
-- [Estudios sobre educacion](https://revistas.unav.edu/index.php/estudios-sobre-educacion/index)
+- [Comunicar](https://www.revistacomunicar.com/index.php?contenido=tematica)
 
 - [Educare](https://www.revistas.una.ac.cr/index.php/educare)
 
-- [Perfiles educativos](https://perfileseducativos.unam.mx/iisue_pe/index.php/perfiles/about)
-
-
-- [Revista de educación](https://www.educacionyfp.gob.es/revista-de-educacion/inicio.html)
+- [Estudios sobre educacion](https://revistas.unav.edu/index.php/estudios-sobre-educacion/index)
 
 - [IRRODL](https://www.irrodl.org/index.php/irrodl/about)
 
-
-- [Comunicar](https://www.revistacomunicar.com/index.php?contenido=tematica)
-
-- [Universidad de la Sabana](https://educacionyeducadores.unisabana.edu.co/index.php/eye/about)
-
+- [Perfiles educativos](https://perfileseducativos.unam.mx/iisue_pe/index.php/perfiles/about)
 
 - [Revista Complutense de Educación](https://revistas.ucm.es/index.php/RCED/index)
 
-- [Revista de Investigación Educativa](https://revistas.um.es/rie) **ESTA ES LA REVISTA**
+- [Revista de educación](https://www.educacionyfp.gob.es/revista-de-educacion/inicio.html)
 
-- [Universidad Javeriana](https://revistas.javeriana.edu.co/index.php/MAGIS/indexation)
+- [Revista de Investigación Educativa](https://revistas.um.es/rie) **ESTA ES LA REVISTA**
 
 - [Revista electrónica de investigación educativa](https://redie.uabc.mx/redie/about/submissions#authorGuidelines)
 
+- [Universidad Javeriana](https://revistas.javeriana.edu.co/index.php/MAGIS/indexation)
 
-
-- []()
-
-- []()
-
-- []()
-
-- []()
-
-
-
-- []()
-
-- []()
-
-- []()
-
-- []()
-
-
-
-- []()
-
-- []()
-
-
-- []()
-
-- []()
-
-
-
-- []()
-
-- []()
+- [Universidad de la Sabana](https://educacionyeducadores.unisabana.edu.co/index.php/eye/about)
 
