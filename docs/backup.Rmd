@@ -1,0 +1,102 @@
+---
+title: "backup"
+author: "Carlos E Martinez-rodriguez"
+date: "31 de octubre de 2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Revistas (Primera revisión)
+
+1. [Actualidades Investigativas en Educación](https://revistas.ucr.ac.cr/index.php/aie/about/submissions)
+
+2. [Assessment & Evaluation in Higher Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=caeh20)
+
+3. [Assessment in Education: Principles, Policy & Practice](https://www.tandfonline.com/toc/caie20/current)
+
+4. [Cogent Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=oaed20) 
+
+5. [Educación y Educadores](https://educacionyeducadores.unisabana.edu.co/index.php/eye/about/submissions)
+
+6. [Educational and Psychological Measurement](https://journals.sagepub.com/aims-scope/EPM)
+
+7. [Estudios sobre Educación](https://revistas.unav.edu/index.php/estudios-sobre-educacion/about/submissions)
+
+8. [Higher Education Research & Development](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=cher20#publication-charges)
+
+9. [International Journal of Science Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tsed20)
+
+10. [International Journal of Testing](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=hijt20)
+
+11. [Journal of College Student Development](https://muse.jhu.edu/issue/51213)
+
+12. [Journal of Educational Measurement](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=caie20#publication-charges)
+
+13. [Journal of Research on Technology in Education](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ujrt20)
+
+14. [Journal of Statistics Education](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=ujse21)
+
+15. [Journal od educational and behavioral statistics](https://www.aera.net/Publications/Journals/Journal-of-Educational-Behavioral-Statistics)
+
+16. [MAGIS - Revista Internacional de Investigación en Educación](https://revistas.javeriana.edu.co/index.php/MAGIS/about/submissions)
+
+17. [Measurement: Interdisciplinary Research and Perspectives](https://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=hmes20)
+
+18. [Perfiles Educativos](https://perfileseducativos.unam.mx/iisue_pe/index.php/perfiles/about/submissions)
+
+19. [Revista Brasileira de Educação Especial](https://analytics.scielo.org/w/publication/size)
+
+20. [Revista Colombiana de Educación](https://revistas.pedagogica.edu.co/index.php/RCE/indexacion)
+
+21. [Revista de Educación en Ciencias](http://educacionyciencia.org/index.php/educacionyciencia/about/submissions)
+
+22. [Revista Docencia Universitaria](https://revistas.uis.edu.co/index.php/revistadocencia/about)
+
+23. [Revista Educación XX1](https://revistas.uned.es/index.php/educacionXX1/guidelines)
+
+24. [Revista Educare](https://www.revistas.una.ac.cr/index.php/EDUCARE/guias)
+
+25. [Revista Electrónica de Investigación Educativa](https://redie.uabc.mx/redie/about/submissions#authorGuidelines)
+
+26. [Revista Española de Pedagogía](https://revistadepedagogia.org/normas-editores/)
+
+27. [Revista Historia de la Educación Latinoamericana](https://revistas.uptc.edu.co/index.php/historia_educacion_latinamerican)
+
+28. [Revista Iberoamericana para la Investigación y el Desarrollo Educativo](https://www.ride.org.mx/index.php/RIDE/indexaciones)
+
+29. [Revista Investigaciones en Educación](https://revistas.ufro.cl/ojs/index.php/educacion/about/submissions)
+
+30. [Revista Latinoamericana de Estudios Educativos](https://rlee.ibero.mx/index.php/rlee)
+
+31. [Revista Latinoamericana de Investigación en Matemática Educativa](https://relime.org/index.php/relime/about)
+
+32. [Revista Mexicana de Investigación Educativa](https://comie.org.mx/revista/v2018/rmie/index.php/nrmie/instructivoautores)
+
+33. [Revista Panamericana de Pedagogía, Saberes y Quehaceres del Pedagogo](https://revistas.up.edu.mx/RPP/about)
+
+34. [Revista Pensamiento Educativo](https://pensamientoeducativo.uc.cl//index.php/pel/about)
+
+35. [Revista de Educación](https://www.educacionyfp.gob.es/revista-de-educacion/normas-presentacion/articulos.html)
+
+36. [Revista Española de Pedagogía](https://revistadepedagogia.org/normas-editores/)
+
+37. [American Educational Research Journal](https://journals.sagepub.com/home/aer)
+
+38. [Turkish studies](https://turkishstudies.net/education?mod=sayfabilgi&sayfa_alias=Aims%20&%20Scope)
+
+
+39. [Trames](https://kirj.ee/trames/?v=0b98720dcb2c)
+
+
+40. [Issues in Education Research](https://www.iier.org.au/iier-inf.html#submissions)
+
+41. [Journal of Humanities and Social Sciences](https://www.opastpublishers.com/highlights/methodology-journals-1652.html)
+
+42. [international Journal of arts](http://www.ijahss.com/Publication%20fee.html)
+
+43. [Journal of Education and e-learning research](https://www.asianonlinejournals.com/index.php/JEELR/about)
+
+
+44. [Higher education for the future](https://us.sagepub.com/en-us/nam/journal/higher-education-future#submission-guidelines)

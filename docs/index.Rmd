@@ -11,7 +11,7 @@ output:
     toc_float: true
     toc_depth: 3
     code_folding: show
-    css: styles.css
+    css: estilos.css
     theme: united
     highlight: tango
 ---
@@ -94,5 +94,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 36. [Revista Española de Pedagogía](https://revistadepedagogia.org/normas-editores/)
 
+37. [American Educational Research Journal](https://journals.sagepub.com/home/aer)
+
+38. [Turkish studies](https://turkishstudies.net/education?mod=sayfabilgi&sayfa_alias=Aims%20&%20Scope)
 
 
+39. [Trames](https://kirj.ee/trames/?v=0b98720dcb2c)
+
+
+40. [Issues in Education Research](https://www.iier.org.au/iier-inf.html#submissions)
+
+41. [Journal of Humanities and Social Sciences](https://www.opastpublishers.com/highlights/methodology-journals-1652.html)
+
+42. [international Journal of arts](http://www.ijahss.com/Publication%20fee.html)
+
+43. [Journal of Education and e-learning research](https://www.asianonlinejournals.com/index.php/JEELR/about)
+
+
+44. [Higher education for the future](https://us.sagepub.com/en-us/nam/journal/higher-education-future#submission-guidelines)
