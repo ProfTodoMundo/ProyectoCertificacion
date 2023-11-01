@@ -123,6 +123,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - [IRRODL](https://www.irrodl.org/index.php/irrodl/about)
 
+- [Journal of New Approaches in Educational Research](https://naerjournal.ua.es/about/editorialPolicies#focusAndScope)**Me gusta**
+
 - [Perfiles educativos](https://perfileseducativos.unam.mx/iisue_pe/index.php/perfiles/about)
 
 - [Revista Complutense de Educación](https://revistas.ucm.es/index.php/RCED/index)
@@ -131,7 +133,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - [Revista de Investigación Educativa](https://revistas.um.es/rie) **ESTA ES LA REVISTA**
 
-- [Revista electrónica de investigación educativa](https://redie.uabc.mx/redie/about/submissions#authorGuidelines)
+- [Revista Eureka](https://revistas.uca.es/index.php/eureka/in)
+
+- [Revista electrónica de investigación educativa](https://redie.uabc.mx/redie/about/submissions#authorGuidelines)**Me gusta**
+
+- [Revista Enseñanza de las Ciencias](https://ensciencias.uab.cat/about)**Me gusta**
+
+- [Revista Iberoamericada de Educación Superior](https://www.ries.universia.unam.mx/index.php/ries/descripcion) **Me gusta**
+
+- [Revista Iberoamericana sobre Calidad, Eficacia y Cambio en Educación](https://revistas.uam.es/reice)**Creo que esta es la mejor**
 
 - [Universidad Javeriana](https://revistas.javeriana.edu.co/index.php/MAGIS/indexation)
 
